@@ -1,0 +1,50 @@
+body {
+    font-family: Sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 5vmin;
+}
+
+.page-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #FFF;
+}
+
+.message {
+    font-size: 2vmin;
+}
+
+.settings {
+    font-size: 2vmin;
+}
+
+.settings > * {
+    margin-right: 10px;
+}
+
+.number {
+    display: block;
+    position: absolute;
+    width: 34px;
+    height: 24px;
+    padding-top: 8px;
+    margin: 3px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+.prime-number {
+}
